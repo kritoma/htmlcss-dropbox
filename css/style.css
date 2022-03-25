@@ -1,0 +1,11 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* tipografia */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
