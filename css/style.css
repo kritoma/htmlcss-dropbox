@@ -9,3 +9,48 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+/* button */
+button{
+    background-color: #0061ff;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+/* header */
+header{
+    position: fixed;
+    font-size: 0;
+    width: 100%;
+    padding: 20px;
+}
+
+.header-left, .header-right{
+    display: inline-block;
+    width: 50%;
+    font-size: 16px;
+}
+
+.header-left img, .nav-left, .nav-right{
+    vertical-align: middle;
+}
+
+.nav-left{
+    display: inline-block;
+}
+
+.nav-right{
+    text-align: right;
+}
+
+nav li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+}
