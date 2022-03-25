@@ -16,9 +16,26 @@
     margin: auto;
 }
 
+.hr-short{
+    width: 50px;
+}
+
+.display-inline-block{
+    display: inline-block;
+}
+
+/* padding */
+.padding-top-150px{
+    padding-top: 150px;
+}
+
 /* margin */
 .margin-bottom-20px{
     margin-bottom: 20px;
+}
+
+.margin-bottom-30px{
+    margin-bottom: 30px;
 }
 
 .margin-bottom-40px{
@@ -30,6 +47,23 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+h2{
+    font-size: 2.5em;
+}
+
+.color-blue{
+    color: #2779ff;
+}
+
+ h3{
+    font-weight: 800;
+    font-size: 25px;
+}
+
+ h5{
+    font-size: 16px;
+}
+
 /* button */
 button{
     background-color: #0061ff;
@@ -37,6 +71,12 @@ button{
     padding: 8px 15px;
     border: none;
     cursor: pointer;
+}
+
+.btn-proof{
+    padding: 8px 49px;
+    display: block;
+    margin: 20px auto
 }
 
 /* clearfix */
@@ -115,4 +155,55 @@ nav li a{
 
 .hero-bottom-right img{
     width: 100%;
+}
+
+/* sezione abbonamenti */
+.cols{
+    width: 100%;
+}
+
+.col{
+    width: calc(100% / 3 - 40px);
+    float: left;
+    border: 1px solid black;
+    min-height: 900px;
+}
+
+.col-center{
+    margin: 0 60px;
+}
+
+.col-top{
+    text-align: center;
+    padding: 10px 0;
+}
+
+.col-bottom{
+    padding: 30px 35px;
+    font-size: 12px;
+}
+
+
+
+.col ul{
+    list-style-type: none;
+}
+
+.col li{
+    padding-bottom: 20px;
+}
+
+.section-office{
+    border: 1px solid black;
+    margin-top: 40px;
+}
+
+.col-bottom-left{
+    width: 70%;
+    float: left;
+}
+
+.col-bottom-right{
+    width: 30%;
+    float: left;
 }
