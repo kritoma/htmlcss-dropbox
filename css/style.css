@@ -5,6 +5,26 @@
     box-sizing: border-box;
 }
 
+/* commons */
+.container{
+    max-width: 1080px;
+    margin: auto;
+}
+
+.container-large{
+    max-width: 1300px;
+    margin: auto;
+}
+
+/* margin */
+.margin-bottom-20px{
+    margin-bottom: 20px;
+}
+
+.margin-bottom-40px{
+    margin-bottom: 40px;
+}
+
 /* tipografia */
 body{
     font-family: 'Open Sans', sans-serif;
@@ -14,17 +34,26 @@ body{
 button{
     background-color: #0061ff;
     color: white;
-    padding: 5px 15px;
+    padding: 8px 15px;
     border: none;
     cursor: pointer;
 }
 
+/* clearfix */
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
 /* header */
 header{
+    background-color: white;
     position: fixed;
     font-size: 0;
     width: 100%;
     padding: 20px;
+    z-index: 10;
 }
 
 .header-left, .header-right{
@@ -53,4 +82,37 @@ nav li{
 nav li a{
     text-decoration: none;
     color: black;
+}
+
+/* hero */
+.hero{
+    background-color: #b4d0e7;
+}
+
+.hero h1{
+    padding-top: 180px;
+    font-size: 70px;
+}
+
+.hero-bottom{
+    position: relative;
+    bottom: -60px;
+}
+
+.hero-bottom-left{
+    width: 30%;
+    float: left;
+}
+
+.arrow-down{
+    font-size: 50px;
+}
+
+.hero-bottom-right{
+    width: 70%;
+    float: left;
+}
+
+.hero-bottom-right img{
+    width: 100%;
 }
