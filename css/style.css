@@ -64,6 +64,10 @@ h2{
     font-size: 16px;
 }
 
+.underline{
+    text-decoration: underline;
+}
+
 /* button */
 button{
     background-color: #0061ff;
@@ -77,6 +81,12 @@ button{
     padding: 8px 49px;
     display: block;
     margin: 20px auto
+}
+
+.btn-partner{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
 }
 
 /* clearfix */
@@ -183,8 +193,6 @@ nav li a{
     font-size: 12px;
 }
 
-
-
 .col ul{
     list-style-type: none;
 }
@@ -206,4 +214,40 @@ nav li a{
 .col-bottom-right{
     width: 30%;
     float: left;
+}
+
+/* sezione contatto partner */
+.section-partner{
+    margin-top: 100px; 
+}
+
+.col-partner-left{
+    width: 55%;
+    float: left;
+}
+
+.col-partner-right{
+    width: 45%;
+    float: left;
+    padding: 30px 0 0 30px;
+}
+
+.section-partner img{
+    width: 100%;
+}
+
+/* sezione operazioni */
+.section-operations{
+    margin-top: 100px;
+}
+
+.card{
+    width: calc(100% / 3);
+    float: left;
+    padding-right: 60px;
+    margin-bottom: 80px;
+}
+
+.card img{
+    width: 100%;
 }
