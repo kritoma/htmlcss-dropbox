@@ -223,6 +223,7 @@ nav li a{
 .col-top{
     text-align: center;
     padding: 10px 0;
+    border-bottom: 1px solid black;
 }
 
 .col-bottom{
@@ -236,6 +237,8 @@ nav li a{
 
 .col li{
     padding-bottom: 20px;
+    padding-left: 15px;
+    text-indent: -7px;
 }
 
 .section-office{
@@ -308,6 +311,8 @@ nav li a{
     float: left;
     background-color: #f5f5f5;
     padding: 50px;
+    height: 25vw;
+    overflow-y: auto;
 }
 
 .brand{
@@ -319,7 +324,7 @@ nav li a{
 
 .brand img{
     width: 50%;
-    color: white;
+    fill: white;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -329,6 +334,10 @@ nav li a{
 .col-brand-middle img{
     width: 20%;
     margin-bottom: 40px;
+}
+
+.brand-designit{
+    border: 10px solid #d0e9cd;
 }
 
 /* sezione prova gratuita */
