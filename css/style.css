@@ -16,6 +16,10 @@
     margin: auto;
 }
 
+hr{
+    color: #dcdcde;
+}
+
 .hr-short{
     width: 50px;
 }
@@ -351,4 +355,26 @@ nav li a{
     background-color: white;
     color: black;
     padding: 8px 50px;
+}
+
+/* sezione faq */
+.section-faq{
+    margin-top: 100px;
+}
+
+.section-faq .question{
+    display: inline-block;
+    font-weight: 700;
+    padding: 20px 0;
+    width: 70%;
+}
+
+.section-faq .chevron{
+    display: inline-block;
+    width: calc(30% - 6px);
+    text-align: right;
+}
+
+.chevron i {
+    padding-right: 20px;
 }
